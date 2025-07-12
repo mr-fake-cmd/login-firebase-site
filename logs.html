@@ -2,14 +2,35 @@
 <html>
 <head>
   <title>Login Logs</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      color: green;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      padding: 8px;
+      border-bottom: 1px solid #ccc;
+      font-size: 16px;
+    }
+  </style>
 </head>
 <body>
-  <h1>THANKS FOR LOGIN</h1><color:red;
-  
+  <h1>THANKS FOR LOGIN</h1>
+
+  <!-- ✅ Log list container -->
+  <ul id="logList"></ul>
 
   <!-- Firebase Scripts -->
   <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
